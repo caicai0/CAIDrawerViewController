@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E90185919ECB68500DC1F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90185819ECB68500DC1F52 /* AppDelegate.swift */; };
+		7E90185C19ECB68500DC1F52 /* CAIDrawerViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E90185A19ECB68500DC1F52 /* CAIDrawerViewController.xcdatamodeld */; };
+		7E90185E19ECB68500DC1F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90185D19ECB68500DC1F52 /* ViewController.swift */; };
+		7E90186119ECB68500DC1F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E90185F19ECB68500DC1F52 /* Main.storyboard */; };
+		7E90186319ECB68500DC1F52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E90186219ECB68500DC1F52 /* Images.xcassets */; };
+		7E90186619ECB68500DC1F52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E90186419ECB68500DC1F52 /* LaunchScreen.xib */; };
+		7E90187219ECB68500DC1F52 /* CAIDrawerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90187119ECB68500DC1F52 /* CAIDrawerViewControllerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E90186C19ECB68500DC1F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E90184B19ECB68500DC1F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E90185219ECB68500DC1F52;
+			remoteInfo = CAIDrawerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E90185319ECB68500DC1F52 /* CAIDrawerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAIDrawerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90185719ECB68500DC1F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E90185819ECB68500DC1F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E90185B19ECB68500DC1F52 /* CAIDrawerViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CAIDrawerViewController.xcdatamodel; sourceTree = "<group>"; };
+		7E90185D19ECB68500DC1F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E90186019ECB68500DC1F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E90186219ECB68500DC1F52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E90186519ECB68500DC1F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7E90186B19ECB68500DC1F52 /* CAIDrawerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAIDrawerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90187019ECB68500DC1F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E90187119ECB68500DC1F52 /* CAIDrawerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAIDrawerViewControllerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E90185019ECB68500DC1F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90186819ECB68500DC1F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E90184A19ECB68500DC1F52 = {
+			isa = PBXGroup;
+			children = (
+				7E90185519ECB68500DC1F52 /* CAIDrawerViewController */,
+				7E90186E19ECB68500DC1F52 /* CAIDrawerViewControllerTests */,
+				7E90185419ECB68500DC1F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E90185419ECB68500DC1F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E90185319ECB68500DC1F52 /* CAIDrawerViewController.app */,
+				7E90186B19ECB68500DC1F52 /* CAIDrawerViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E90185519ECB68500DC1F52 /* CAIDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E90185819ECB68500DC1F52 /* AppDelegate.swift */,
+				7E90185D19ECB68500DC1F52 /* ViewController.swift */,
+				7E90185F19ECB68500DC1F52 /* Main.storyboard */,
+				7E90186219ECB68500DC1F52 /* Images.xcassets */,
+				7E90186419ECB68500DC1F52 /* LaunchScreen.xib */,
+				7E90185A19ECB68500DC1F52 /* CAIDrawerViewController.xcdatamodeld */,
+				7E90185619ECB68500DC1F52 /* Supporting Files */,
+			);
+			path = CAIDrawerViewController;
+			sourceTree = "<group>";
+		};
+		7E90185619ECB68500DC1F52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E90185719ECB68500DC1F52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E90186E19ECB68500DC1F52 /* CAIDrawerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E90187119ECB68500DC1F52 /* CAIDrawerViewControllerTests.swift */,
+				7E90186F19ECB68500DC1F52 /* Supporting Files */,
+			);
+			path = CAIDrawerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		7E90186F19ECB68500DC1F52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E90187019ECB68500DC1F52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E90185219ECB68500DC1F52 /* CAIDrawerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E90187519ECB68500DC1F52 /* Build configuration list for PBXNativeTarget "CAIDrawerViewController" */;
+			buildPhases = (
+				7E90184F19ECB68500DC1F52 /* Sources */,
+				7E90185019ECB68500DC1F52 /* Frameworks */,
+				7E90185119ECB68500DC1F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAIDrawerViewController;
+			productName = CAIDrawerViewController;
+			productReference = 7E90185319ECB68500DC1F52 /* CAIDrawerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E90186A19ECB68500DC1F52 /* CAIDrawerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E90187819ECB68500DC1F52 /* Build configuration list for PBXNativeTarget "CAIDrawerViewControllerTests" */;
+			buildPhases = (
+				7E90186719ECB68500DC1F52 /* Sources */,
+				7E90186819ECB68500DC1F52 /* Frameworks */,
+				7E90186919ECB68500DC1F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E90186D19ECB68500DC1F52 /* PBXTargetDependency */,
+			);
+			name = CAIDrawerViewControllerTests;
+			productName = CAIDrawerViewControllerTests;
+			productReference = 7E90186B19ECB68500DC1F52 /* CAIDrawerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E90184B19ECB68500DC1F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CAI;
+				TargetAttributes = {
+					7E90185219ECB68500DC1F52 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					7E90186A19ECB68500DC1F52 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 7E90185219ECB68500DC1F52;
+					};
+				};
+			};
+			buildConfigurationList = 7E90184E19ECB68500DC1F52 /* Build configuration list for PBXProject "CAIDrawerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E90184A19ECB68500DC1F52;
+			productRefGroup = 7E90185419ECB68500DC1F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E90185219ECB68500DC1F52 /* CAIDrawerViewController */,
+				7E90186A19ECB68500DC1F52 /* CAIDrawerViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E90185119ECB68500DC1F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90186119ECB68500DC1F52 /* Main.storyboard in Resources */,
+				7E90186619ECB68500DC1F52 /* LaunchScreen.xib in Resources */,
+				7E90186319ECB68500DC1F52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90186919ECB68500DC1F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E90184F19ECB68500DC1F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90185E19ECB68500DC1F52 /* ViewController.swift in Sources */,
+				7E90185919ECB68500DC1F52 /* AppDelegate.swift in Sources */,
+				7E90185C19ECB68500DC1F52 /* CAIDrawerViewController.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90186719ECB68500DC1F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90187219ECB68500DC1F52 /* CAIDrawerViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E90186D19ECB68500DC1F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E90185219ECB68500DC1F52 /* CAIDrawerViewController */;
+			targetProxy = 7E90186C19ECB68500DC1F52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E90185F19ECB68500DC1F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E90186019ECB68500DC1F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E90186419ECB68500DC1F52 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E90186519ECB68500DC1F52 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E90187319ECB68500DC1F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E90187419ECB68500DC1F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E90187619ECB68500DC1F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAIDrawerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E90187719ECB68500DC1F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAIDrawerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E90187919ECB68500DC1F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CAIDrawerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAIDrawerViewController.app/CAIDrawerViewController";
+			};
+			name = Debug;
+		};
+		7E90187A19ECB68500DC1F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CAIDrawerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAIDrawerViewController.app/CAIDrawerViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E90184E19ECB68500DC1F52 /* Build configuration list for PBXProject "CAIDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90187319ECB68500DC1F52 /* Debug */,
+				7E90187419ECB68500DC1F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E90187519ECB68500DC1F52 /* Build configuration list for PBXNativeTarget "CAIDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90187619ECB68500DC1F52 /* Debug */,
+				7E90187719ECB68500DC1F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E90187819ECB68500DC1F52 /* Build configuration list for PBXNativeTarget "CAIDrawerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90187919ECB68500DC1F52 /* Debug */,
+				7E90187A19ECB68500DC1F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E90185A19ECB68500DC1F52 /* CAIDrawerViewController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E90185B19ECB68500DC1F52 /* CAIDrawerViewController.xcdatamodel */,
+			);
+			currentVersion = 7E90185B19ECB68500DC1F52 /* CAIDrawerViewController.xcdatamodel */;
+			path = CAIDrawerViewController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E90184B19ECB68500DC1F52 /* Project object */;
+}
